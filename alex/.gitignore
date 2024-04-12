@@ -1,0 +1,12 @@
+node_modules 
+package-lock.json 
+.replit
+replit.nix
+
+# Ignore files inside 'appstates' and 'cache'
+appstates/*
+cache/*
+
+# Except for these specific files in 'appstates' and 'cache'
+!appstates/.gitkeep
+!cache/.gitkeep
